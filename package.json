@@ -1,0 +1,26 @@
+{
+  "name": "anshajaymishra",
+  "displayName": "Dark & Colorful",
+  "description": "dark theme for vs code",
+  "version": "1.0.0",
+  "publisher": "AnshAjayMishra",  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnshAjayMishra/dark-theme-col"
+  },
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark But Diff",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark But Diff-color-theme.json"
+      }
+    ]
+  }
+}
